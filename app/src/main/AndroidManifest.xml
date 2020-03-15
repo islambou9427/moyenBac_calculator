@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.islambouagada.calculatorbacmoyenne">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/profill"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/profill"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_langue"/>
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_arab"/>
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_gest"/>
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_math"/>
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_tm"/>
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filireee.moy_science" />
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.filiere" />
+        <activity android:name="com.islambouagada.calculatorbacmoyenne.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8966749305221811~2286459557"/>
+    </application>
+
+</manifest>
